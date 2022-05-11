@@ -1,14 +1,15 @@
 ﻿
-//int[] array = { 1, 2, 3, 4, 5, 6, 7 };
-//int k = 3;
+using Leetcode;
 
-//RotateArray r = new RotateArray(); r.Rotate(array, k);
+//MaxSubArrayFinding max = new MaxSubArrayFinding();
+//int[] nums = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
+//var ans = max.MaxSubArray(nums);
+//Console.WriteLine(ans);
 
-using BinarySearch;
-
-
-DuplicateArray da = new DuplicateArray();
-int[] nums = { 1, 1, 1, 3, 3, 4, 3, 2, 4, 2 };
-var ans = da.ContainsDuplicate(nums);
+CountOddsCalculation c = new CountOddsCalculation();
+int a = 3, b = 7;
+int ans = c.CountOdds(a, b);
 Console.WriteLine(ans);
+
+
 
