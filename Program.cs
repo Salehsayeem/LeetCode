@@ -38,10 +38,18 @@ using Leetcode;
 //var ans = a.FindNumbers(nums);
 //Console.WriteLine(ans);
 
-int[] nums = { 1, 0, 2, 3, 0, 4, 5, 0 };
-DuplicateZeroCalculation a = new DuplicateZeroCalculation();
-a.DuplicateZeros(nums);
+//int[] nums = { 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 };
 
+//DuplicateZeroCalculation a = new DuplicateZeroCalculation();
+//a.DuplicateZeros(nums);
+//int[] nums = { 3, 1, 7, 11 };
+int[] nums = { 1, 7, 3, 6, 5, 6 };
+FindPivotIndex s = new FindPivotIndex();
+var ans = s.PivotIndex(nums);
+
+//RemoverDuplicateArrayFromItem z = new RemoverDuplicateArrayFromItem();
+//z.RemoveDuplicates(nums);
+Console.WriteLine(ans);
 //AverageSalaryForEmployee average = new AverageSalaryForEmployee();
 //var ans = average.Average(arr);
 //Console.WriteLine(ans);
