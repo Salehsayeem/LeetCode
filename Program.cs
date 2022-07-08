@@ -43,10 +43,13 @@ using Leetcode;
 //DuplicateZeroCalculation a = new DuplicateZeroCalculation();
 //a.DuplicateZeros(nums);
 //int[] nums = { 3, 1, 7, 11 };
-int[] nums = { 1, 7, 3, 6, 5, 6 };
-FindPivotIndex s = new FindPivotIndex();
-var ans = s.PivotIndex(nums);
+//int[] nums = { 1, 7, 3, 6, 5, 6 };
+//FindPivotIndex s = new FindPivotIndex();
+//var ans = s.PivotIndex(nums);
 
+string s = "MCMXCIV";
+RomanToIntClass b = new RomanToIntClass();
+var ans = b.RomanToInt(s);
 //RemoverDuplicateArrayFromItem z = new RemoverDuplicateArrayFromItem();
 //z.RemoveDuplicates(nums);
 Console.WriteLine(ans);
