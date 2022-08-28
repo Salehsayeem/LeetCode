@@ -47,14 +47,18 @@ using Leetcode;
 //FindPivotIndex s = new FindPivotIndex();
 //var ans = s.PivotIndex(nums);
 
-string s = "MCMXCIV";
-RomanToIntClass b = new RomanToIntClass();
-var ans = b.RomanToInt(s);
+//string s = "MCMXCIV";
+//RomanToIntClass b = new RomanToIntClass();
+//var ans = b.RomanToInt(s);
 //RemoverDuplicateArrayFromItem z = new RemoverDuplicateArrayFromItem();
 //z.RemoveDuplicates(nums);
-Console.WriteLine(ans);
+
 //AverageSalaryForEmployee average = new AverageSalaryForEmployee();
 //var ans = average.Average(arr);
 //Console.WriteLine(ans);
 
 
+int[] s = { 1,2,1 };
+ConcatenationArray b = new ConcatenationArray();
+var ans = b.GetConcatenation(s);
+Console.WriteLine(ans);
